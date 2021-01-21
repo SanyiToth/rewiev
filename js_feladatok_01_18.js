@@ -1,4 +1,4 @@
-/1
+//1
 let obj = {alma: 1, körte: 2, saláta: 3, paradicsom: 4};
 
 
@@ -64,7 +64,7 @@ function objectToarray(object) {
 }
 
 objectToarray(input)
-*!/
+
 
 //6
 
@@ -79,7 +79,7 @@ function isContainthatString(object, string) {
 
 isContainthatString(obj, "körte")
 
-console.log(obj.hasOwnProperty("körte"))*!/
+console.log(obj.hasOwnProperty("körte"))
 
 //7
 
@@ -120,13 +120,13 @@ function isEmpty(object) {
 }
 
 
-
 isEmpty(obj)
-isEmpty(obj2)*/
+
 
 //10
 
-let one = {alma: 1, körte: 2, saláta: 3, paradicsom: 4};
+let
+one = {alma: 1, körte: 2, saláta: 3, paradicsom: 4};
 let two = {alma: 1, körte: 2, saláta: 3, paradicsom: 4};
 
 
@@ -145,7 +145,7 @@ isSame(one, two)
 let a = [1, 2, 4];
 let b = {a: 1}
 let d = new Date();
-let s=
+
 console.log(typeof a);
 console.log(Object.prototype.toString.call(d))
 console.log(Array.isArray(b))
