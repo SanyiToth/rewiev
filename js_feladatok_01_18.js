@@ -140,7 +140,7 @@ function isSame(object1, object2) {
 isSame(one, two)
 // console.log(JSON.stringify(obj) === JSON.stringify(obj2));
 
-//11
+//11.
 
 let a = [1, 2, 4];
 let b = {a: 1}
